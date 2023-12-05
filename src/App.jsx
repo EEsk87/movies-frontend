@@ -1,11 +1,11 @@
 import "./App.css";
-import Header from "./components/Header/Header"
+import Header from "./components/Header/Header";
+import MovieList from "./components/movie list/movie list";
 
 function App() {
   return <div className="App"> 
   <Header />
-  <Header />
-  <Header />
+  <MovieList />
   </div>;
 }
 
