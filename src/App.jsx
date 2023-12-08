@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import MovieList from "./components/movie list/movie list";
 import MovieInfo from "./components/movie info/movie info";
+import NewMovieForm from "./components/NewMovieForm/NewMovieForm";
 
 function App() {
   const selectedMovie = {
@@ -16,6 +17,7 @@ function App() {
       <div className="flex-container">
         <MovieList />
         <MovieInfo movieObj={selectedMovie} />
+        <NewMovieForm />
       </div>
     </div>
   );
